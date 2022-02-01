@@ -85,4 +85,4 @@ credential.helper (Fehlermeldung beim pull/push)
 3. git pull / git push 
 4. beim Username username eingeben und statt dem passwort den Access Token
 
-   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
+  
