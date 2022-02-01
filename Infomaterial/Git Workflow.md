@@ -16,7 +16,6 @@ GIT Repository einrichten:
 
 
 <h2>Lokales Repo</h2>
-
 3. zu den Ordner hin navigieren wo ein Git Repository sein sollte mit
 
    ```
@@ -44,7 +43,6 @@ GIT Repository einrichten:
 
 
 <h2>Remote Repo</h2>
-
 3. zu den Ordner hin navigieren wo ein Git Repository sein sollte mit
 
    ```
@@ -87,3 +85,4 @@ credential.helper (Fehlermeldung beim pull/push)
 3. git pull / git push 
 4. beim Username username eingeben und statt dem passwort den Access Token
 
+   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
