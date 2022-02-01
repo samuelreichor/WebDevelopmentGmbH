@@ -56,7 +56,7 @@ GIT Repository einrichten:
 4. Repository Intialisieren
 
    ```
-   git clone musterlink 		// Link vom Remote Repo bei Github
+   git clone https://github.com/samuelreichor/Web3.0.git 		// Link vom Remote Repo bei Github
    ```
 
 5. Workflow
