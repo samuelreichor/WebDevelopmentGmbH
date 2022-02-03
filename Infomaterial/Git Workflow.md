@@ -97,7 +97,7 @@ credential.helper (Fehlermeldung beim pull/push)
 
 2. zu diesem Repo die Nutzer einladen unter Settings --> Collaborators--> Manage access
 
-   <h4>Workflow</h4>
+   <h2>Workflow</h2>
 
    ```
    1. git pull origin main				//alles updaten
