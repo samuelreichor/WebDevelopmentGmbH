@@ -115,5 +115,5 @@ um wieder auf die main branch zu kommen einfach *git checkout main*
 Wenn immer Passwort anfrage bei jedem Push kommt:
 
 1. ```
-   git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
+   git config remote.origin.url https://{USERNAME}:{ACCESSTOKEN}@github.com/{USERNAME}/{REPONAME}.git
    ```
