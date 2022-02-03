@@ -1,9 +1,11 @@
-GIT Repository einrichten: 
+<h1>GIT Repository einrichten: 
 
 1. cmder.net full downloaden --> entpacken und cmder.exe ausführen
 
 2. Github konfigurieren
 
+   
+   
    ```
    1  git config --global user.name "samuelreichor" //username von git ACC
    2  git config --global user.name //zur kontrolle
@@ -82,7 +84,28 @@ credential.helper (Fehlermeldung beim pull/push)
    ```
 
 2. Access Token generieren
+
 3. git pull / git push 
+
 4. beim Username username eingeben und statt dem passwort den Access Token
 
-  
+
+
+<h2>Remote Repository mit mehr als 2 Nutzer</h2>
+
+1. Ein normales Remote Repository einrichten.
+
+2. zu diesem Repo die Nutzer einladen unter Settings --> Collaborators--> Manage access
+
+   <h4>Workflow</h4>
+
+   ```
+   1. git pull origin main				//alles updaten
+   2. git checkout -b musterbranch		//muster-branch ist eine Abzweigung vom 									//Master-branch
+   3. 		git add *					//alle Dateien adden
+   		git add musterdateiname		//eine Datei/Folder adden
+   4. git commit -m "Musternachricht"	//Commiten
+   5. git push origin musterbranch		//auf der vorhin entworfenen 												//musterbranch zum Repository pushen
+   ```
+
+   
