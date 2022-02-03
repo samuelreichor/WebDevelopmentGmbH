@@ -92,14 +92,12 @@ credential.helper (Fehlermeldung beim pull/push)
 
 
 <h2>Remote Repository mit mehr als 2 Nutzer</h2>
-
 1. Ein normales Remote Repository einrichten.
 
 2. zu diesem Repo die Nutzer einladen unter Settings --> Collaborators--> Manage access
 
    <h2>Workflow</h2>
-
-   ```
+```
    1. git pull origin main				//alles updaten
    2. git checkout -b musterbranch		//muster-branch ist eine Abzweigung vom 									//Master-branch
    3. 		git add *					//alle Dateien adden
@@ -107,5 +105,15 @@ credential.helper (Fehlermeldung beim pull/push)
    4. git commit -m "Musternachricht"	//Commiten
    5. git push origin musterbranch		//auf der vorhin entworfenen 												//musterbranch zum Repository pushen
    ```
-
    
+um wieder auf die main branch zu kommen einfach *git checkout main*
+
+
+
+
+
+Wenn immer Passwort anfrage bei jedem Push kommt:
+
+1. ```
+   git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
+   ```
