@@ -98,7 +98,7 @@ credential.helper (Fehlermeldung beim pull/push)
 
    <h2>Workflow</h2>
 ```
-   1. git pull origin main				//alles updaten
+   1			//alles updaten
    2. git checkout -b musterbranch		//muster-branch ist eine Abzweigung vom 									//Master-branch
    3. 		git add *					//alle Dateien adden
    		git add musterdateiname		//eine Datei/Folder adden
