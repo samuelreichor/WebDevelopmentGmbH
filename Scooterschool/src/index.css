@@ -18,9 +18,18 @@ body {
 }
 
 
+.navbarhover{
+
+  font-weight: 600;
+}
+.navbarhover:hover{
+  color: #48cfad;
+
+}
+
 
 .gradient-bg-welcome {
-  background-color:
+  background-color: fff;
   
 }
 
@@ -85,6 +94,13 @@ body {
 .text-black{
   font-weight: 550;
 }
+
+.text-white{
+  font-size: large;
+}
+
+
+
 
 @tailwind base;
 @tailwind components;

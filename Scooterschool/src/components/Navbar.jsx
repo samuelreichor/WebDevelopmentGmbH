@@ -2,30 +2,32 @@ import React, { useState } from "react";
 import {HiMenuAlt4} from 'react-icons/hi';
 import { AiOutlineClose} from 'react-icons/ai';
 
+
 import logo from '../img/logo.png';
 
 const NavbarItem = ({title, classProbs}) => {
     return(
-     <li className={`mx-4 curser-pointer] ${classProbs}`}>
+     <li  className={`mx-4 curser-pointer navbarhover ] ${classProbs}`}>
          {title}
      </li>
      );
 }
+
+
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] =  React.useState(false);
     return (
         <nav className="w-full flex md:justify-center justify-between items-center p-4 navbar-bg">
             <div className="md:flex-[0.5] flex-initial justify-center items-center">
-            <img  src={logo} alt="logo" className="w-32 cursor-pointer "/>
+            <img  src={logo}  alt="logo" className="w-28 cursor-pointer "/>
             </div>
-            <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial ">
+            <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial cursor-pointer ">
                 {["Über mich", "Kurse", "Kontakt"].map((item, index) =>(
                    <NavbarItem  key={item + index} title={item}/>
                 ))}
-                <li className="text-black bg-[#48CFAD] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#fff]">
-                    Anmelden
-                </li>
+                
+                <button class="bubbly-button py-2 px-7 mx-4">Anmelden</button>
             </ul>
             <div className="flex relative">
                     {toggleMenu
@@ -45,6 +47,7 @@ const Navbar = () => {
                         )
                     }
             </div>
+           
         </nav>
     );
 }
