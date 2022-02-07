@@ -1,7 +1,13 @@
+
+
+
 const Welcome = () => {
     return (
-        <h1>Footer</h1>
-    )
+      
+       <p>hello</p>
+            
+       
+    );
 }
 
-export default Welcome;
+export default Welcome

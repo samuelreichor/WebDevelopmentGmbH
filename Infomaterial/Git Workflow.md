@@ -98,14 +98,14 @@ credential.helper (Fehlermeldung beim pull/push)
 
    <h2>Workflow</h2>
 ```
-   1			//alles updaten
+   1. git pull origin main		//alles updaten
    2. git checkout -b musterbranch		//muster-branch ist eine Abzweigung vom 									//Master-branch
    3. 		git add *					//alle Dateien adden
    		git add musterdateiname		//eine Datei/Folder adden
    4. git commit -m "Musternachricht"	//Commiten
    5. git push origin musterbranch		//auf der vorhin entworfenen 												//musterbranch zum Repository pushen
-   ```
-   
+```
+
 um wieder auf die main branch zu kommen einfach *git checkout main*
 
 
