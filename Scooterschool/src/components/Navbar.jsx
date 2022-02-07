@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import {HiMenuAlt4} from 'react-icons/hi';
 import { AiOutlineClose} from 'react-icons/ai';
 import background from '../img/Welcome-55.png';
+import background2 from '../img/Welcome-34.png';
+import background3 from '../img/Welcome-22.png';
 
 
 import logo from '../img/logo.png';
@@ -19,7 +21,7 @@ const NavbarItem = ({title, classProbs}) => {
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] =  React.useState(false);
     return (
-        <nav className="h-screen bg-cover bg-center z-0" style={{ backgroundImage: `url(${background})` }}>
+        <nav className="h-screen bg-cover bg-center z-0" style={{ backgroundImage: `url(${background2})` }}>
             <div className="w-full flex md:justify-center justify-between items-center p-4 navbar-bg">
                 <div className="md:flex-[0.5] flex-initial justify-center items-center">
                     <img  src={logo}  alt="logo" className="w-28 cursor-pointer "/>
