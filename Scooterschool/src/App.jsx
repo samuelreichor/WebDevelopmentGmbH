@@ -1,15 +1,11 @@
-import { Navbar, Welcome, Footer, Aboutme, Contact, Information } from "./components";
-import background from './img/Welcome-55.png';
+import { Navbar, Footer, Aboutme, Contact, Information } from "./components";
+
 
 const App = () => {
 
   return(
     <div className='min-h-screen min-w-screen relative top-0 '>
-      <div className="">     
-        <Navbar/>   
-      </div>
-      <Welcome/>
-      
+      <Navbar/>       
       <Aboutme/>
       <Information/>
       <Contact/>
