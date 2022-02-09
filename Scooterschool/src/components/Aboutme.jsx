@@ -10,7 +10,7 @@ const Aboutme = () => {
         
     <div className = "about-wrapper">
       <div className = "about-left">
-        <div className = "about-left-content">
+        <div className = "about-left-content curser-pointer">
           <div>
             <div className = "shadow">
               <div className = "about-img content-center">
