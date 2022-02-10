@@ -36,7 +36,7 @@ const Aboutme = () => {
       </div>
 
       <div className = "about-right">
-        <h1>Heyo<span>!</span></h1>
+        <h1>Hey<span>!</span></h1>
         
         <div className = "about-btns">
           <button type = "button" className = "btn btn-pink">Kontakt</button>
@@ -56,10 +56,11 @@ const Aboutme = () => {
             . 
             </p>
         </div>
-        
-      </div>
-    </div>
 
+      </div>
+      
+    </div>
+    
 
     )
 }
