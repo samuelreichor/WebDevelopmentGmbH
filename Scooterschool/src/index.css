@@ -143,16 +143,16 @@ border: 1px solid rgba(24, 24, 24, 0.3);
 }
 
 .about-left-content{
-  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 1);
   border-radius: 12px;
   width:80%;
   transition: all 0.5s ease-in-out;
 }
 
 .about-left-content:hover{
-  box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 0.19);
-  -webkit-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 0.19);
-  -moz-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 0.19);
+  box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
+  -webkit-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
+  -moz-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -345,8 +345,9 @@ border: 1px solid rgba(24, 24, 24, 0.3);
 .informationh1{
   text-align: center;
   color: #fff;
+  
   margin-bottom: 5%;
-  font-size: 3rem;
+  font-size: 2.5rem;
 
 }
 
@@ -382,7 +383,7 @@ border: 1px solid rgba(24, 24, 24, 0.3);
   padding: 3rem;
   width: 23rem;
   transition: box-shadow .3s;
-  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 1);
   transition: all .5s ease-in-out;
   margin-bottom: 10rem;
 
@@ -392,7 +393,7 @@ border: 1px solid rgba(24, 24, 24, 0.3);
 
 
 .card:hover {
-  box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 0.19);
+  box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
   transition: all .5s ease-in-out;
 }
 
@@ -436,7 +437,7 @@ border: 1px solid rgba(24, 24, 24, 0.3);
   }
   .card:hover{
     padding: 1rem;
-    box-shadow: 0 0px 0px 0 rgba(72, 207, 173, 0.24), 0 0px 0px 0 rgba(72, 207, 173, 0.19);
+    box-shadow: 0 0px 0px 0 rgba(72, 207, 173, 0.24), 0 0px 0px 0 rgba(72, 207, 173, 1);
   }
 
   .para-information {

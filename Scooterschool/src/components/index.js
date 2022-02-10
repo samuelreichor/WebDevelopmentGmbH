@@ -5,4 +5,5 @@ export { default as Aboutme } from './Aboutme';
 export { default as Contact } from './Contact';
 export { default as Footer } from './Footer';
 export { default as Welcome } from './Welcome';
+export { default as Kurse } from './Kurse';
 

@@ -2,9 +2,9 @@
 
 const Information = () => {
     return (
-        <div className="information-wrapper    bg-information">
+        <div className="information-wrapper bg-information">
               <div className="information-headline">
-              <h1 className="informationh1 information-border">Allgemeine Informationen</h1>
+                <h1 className="informationh1 information-border">Allgemeine Informationen</h1>
 
                 <ul className="cards">
                         
@@ -13,7 +13,7 @@ const Information = () => {
                     <h3 className="informationh3">Ort</h3>
                     <p className="para-information">Die Kurse werden im Winter in der Sporthalle Lissfeld stattfinden. 
                         Diese Skate-Halle befindet sich in Linz in der Nähe vom Bindermichel Tunnel.</p>
-                        <button type = "button" className = "btn btn-pink informationBtn">Mehr Information</button>
+                        <button type = "button" className = "btn btn-white informationBtn">Mehr Information</button>
                     </li>
                     </div>
                     <div className="card">
@@ -37,7 +37,7 @@ const Information = () => {
                     ​   Nach einer erfolgreichen Anmeldung werden Sie eine Email mit den Kursdaten erhalten.    
                     </p>
                     <button type = "button" className = "btn btn-white informationBtn">Anmelden</button>
-            </li>
+                    </li>
                     </div>
 
                 </ul>

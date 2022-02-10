@@ -23,7 +23,7 @@ const Aboutme = () => {
           </div>
 
         <ul className = "icons curser-pointer">
-            <li><a className="curser-pointer" target="_blank" rel="noopener"></a><FaFacebookF /></li>
+            <li><FaFacebookF /></li>
             <li><FaInstagram></FaInstagram></li>
             <li><FaYoutube></FaYoutube></li>
             <li><FaGithub></FaGithub></li>
