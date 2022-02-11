@@ -14,6 +14,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
 }
 
 
@@ -224,7 +225,7 @@ border: 1px solid rgba(24, 24, 24, 0.3);
   transition: all 0.5s ease-in-out;
 }
 .icons li:hover{
-  background: #edffec;
+  background: #fff;
   color: #000;
 }
 .about-right{
