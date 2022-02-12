@@ -1,7 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+
 
 import aboutMeImg from '../img/Placeholder.jpg';
 
@@ -26,7 +26,7 @@ const Aboutme = () => {
             <li><FaFacebookF /></li>
             <li><FaInstagram></FaInstagram></li>
             <li><FaYoutube></FaYoutube></li>
-            <li><FaGithub></FaGithub></li>
+            
           </ul>
 
 

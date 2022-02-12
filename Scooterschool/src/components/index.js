@@ -1,5 +1,5 @@
 export { default as Navbar } from './Navbar';
-export { default as LoaderInformation } from './Loader';
+export { default as Anmelden } from './Anmelden';
 export { default as Information } from './Information';
 export { default as Aboutme } from './Aboutme';
 export { default as ContactForm } from './ContactForm';

@@ -1,4 +1,4 @@
-import { Navbar, Footer, Welcome, Aboutme, ContactForm, Kurse, Information } from "./components";
+import { Navbar, Footer, Welcome, Aboutme, ContactForm, Kurse, Information, Anmelden } from "./components";
 
 import {
   BrowserRouter as Router,
@@ -12,14 +12,15 @@ import {
 const App = () => {
 
   return(
-    <Router>   
-       <Navbar/> 
-       <Welcome/>
+    <Router>  
+      <Navbar/>
+      <Welcome/> 
       <Aboutme/>
       <Information/>
       <Kurse/>
-      <ContactForm/>
-      <Footer/>         
+      <Anmelden/> 
+     <ContactForm/>
+     <Footer/>   
       </Router>
   ); 
 }
