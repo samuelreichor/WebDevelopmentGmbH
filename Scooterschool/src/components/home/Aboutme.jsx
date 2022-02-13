@@ -3,12 +3,12 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
 
-import aboutMeImg from '../img/Placeholder.jpg';
+import aboutMeImg from '../../assets/Placeholder.jpg';
 
 const Aboutme = () => {
     return (
         
-    <div className = "about-wrapper">
+    <div id="aboutme" className = "about-wrapper">
       <div className = "about-left">
         <div className = "about-left-content curser-pointer">
           <div>

@@ -1,11 +1,11 @@
 import React from "react";
-import background2 from '../img/Welcome-34.png';
+import background2 from '../../assets/Welcome-34.png';
 
 
 
 const Welcome = () => {
     return (
-        <div className="h-screen bg-cover bg-center z-0 bg-welcome " style={{ backgroundImage: `url(${background2})` }}>
+        <div id="home" className="h-screen bg-cover bg-center z-0 bg-welcome " style={{ backgroundImage: `url(${background2})` }}>
             <div className="w-full flex flex-col items-center translate-y-56">
 
             <h2 className="fontstyleh2 ">Scootering is Awesome</h2>

@@ -24,7 +24,7 @@ const Anmelden = () => {
 
     return (
 
-<form  ref={form} onSubmit={sendEmail}>
+<form id="anmelden" ref={form} onSubmit={sendEmail}>
   
       <h2 className="anmeldenh2 anmeldenh2-border">Willkommen zur Kursanmeldung</h2>
       

@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
 import background2 from '../img/Welcome-34.png';
-import { Link } from 'react-router-dom';
-
+import { Anchor, Drawer} from 'antd';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 
+import logo from '../../assets/logo.png';
 
-
-
-import logo from '../img/logo.png';
-
-
+const { Link } = Anchor;
 
 
 const Navbar = () => {
@@ -25,7 +21,7 @@ const Navbar = () => {
         <nav className="z-10">
         <div className="navbar">
                 <div className="navbar-container container ">
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link href="#home" className='navbar-logo' onClick={closeMobileMenu}>
                         <img  src={logo}  alt="logo" className="w-28 cursor-pointer "/>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -34,23 +30,28 @@ const Navbar = () => {
                           
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className=" nav-item">
-                <Link to='/aboutMe' className='nav-links' onClick={closeMobileMenu}>
+                <Link href="" className='nav-links' onClick={closeMobileMenu}>
                     Über mich
                 </Link>
                 </li>
                 <li className=" nav-item">
-                <Link to='/kurse' className='nav-links' onClick={closeMobileMenu}>
+                <Link href="" className='nav-links' onClick={closeMobileMenu}>
                     Kurse
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                <Link href="" className='nav-links' onClick={closeMobileMenu}>
+                    Termine
+                </Link>
+                </li> 
+                <li className="nav-item">
+                <Link href="" className='nav-links' onClick={closeMobileMenu}>
                     Kontakt
                 </Link>
                 </li> 
                 <li>
                
-                  <Link to='/kursAnmeldung' className=''>
+                  <Link href="" className=''>
                   <button class="bubbly-button py-2 px-7 mx-4">Anmelden</button>
                   </Link>
                

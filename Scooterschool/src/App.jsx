@@ -1,28 +1,26 @@
-import { Navbar, Footer, Welcome, Aboutme, ContactForm, Kurse, Information, Anmelden } from "./components";
+import React from "react";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from 'react-router-dom';
+import AppHeader from './components/common/Navbar';
+import AppFooter from './components/common/Footer';
+import AppHome from './views/home';
 
+import { Layout } from 'antd';
+const { Header, Content, Footer } = Layout;
 
-
-const App = () => {
-
-  return(
-    <Router>  
-      <Navbar/>
-      <Welcome/> 
-      <Aboutme/>
-      <Information/>
-      <Kurse/>
-      <Anmelden/> 
-     <ContactForm/>
-     <Footer/>   
-      </Router>
-  ); 
+function App() {
+  return (
+    <Layout className="mainLayout">
+      <Header>
+        <AppHeader/>
+      </Header>
+      <Content>
+        <AppHome/>
+      </Content>
+      <Footer>
+        <AppFooter/>  
+      </Footer>      
+    </Layout>
+  );
 }
 
-export default App
+export default App;

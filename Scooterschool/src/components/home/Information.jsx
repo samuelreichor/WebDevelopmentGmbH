@@ -2,7 +2,7 @@
 
 const Information = () => {
     return (
-        <div className="information-wrapper bg-information">
+        <div id="information" className="information-wrapper bg-information">
               <div className="information-headline">
                 <h1 className="informationh1 information-border">Allgemeine Informationen</h1>
 

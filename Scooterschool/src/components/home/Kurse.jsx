@@ -9,7 +9,7 @@ import {GiPriceTag} from 'react-icons/gi'
 
 const Kurse = () => {
     return (
-    <div className='terminInit '>
+    <div id="kurse" className='terminInit '>
             <h1 className="informationh1 information-border">Anstehende Kurse</h1>
         <div className="flex-container">      
             <div className="content-left">
