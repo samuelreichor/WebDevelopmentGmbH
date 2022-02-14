@@ -14,7 +14,7 @@ function App() {
         <AppHeader/>
       </Header>
       <Content>
-        <AppHome/>
+        
       </Content>
       <Footer>
         <AppFooter/>  

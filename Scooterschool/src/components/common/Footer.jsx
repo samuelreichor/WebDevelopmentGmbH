@@ -4,9 +4,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { Link} from 'react-router-dom';
+import Impressum from '../rights/Impressum'
 
 import './Footer.css'
-import logo from '../img/logo.png';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -19,26 +21,26 @@ const Footer = () => {
                     <span className="">
                     <img  src={logo}  alt="logo" className="w-28 cursor-pointer "/>
                     </span>
-                    <div class="container-footer">
-                        <div class="icontel-footer icon-footer"><BsFillTelephoneForwardFill/></div>
-                        <div class="telefonnummer-footer"><p className='contact-footer my-2'>+436604082187</p></div>
-                        <div class="email-footer"><p className='contact-footer my-2'>kontakt@scooterschool.online</p></div>
-                        <div class="iconmail-footer icon-footer"><MdEmail/></div>
+                    <div className="container-footer">
+                        <div className="icontel-footer icon-footer"><BsFillTelephoneForwardFill/></div>
+                        <div className="telefonnummer-footer"><p className='contact-footer my-2'>+436604082187</p></div>
+                        <div className="email-footer"><p className='contact-footer my-2'>kontakt@scooterschool.online</p></div>
+                        <div className="iconmail-footer icon-footer"><MdEmail/></div>
                         </div>
                        
                 </div>
-                <div class="flex flex-col">
+                <div className="flex flex-col">
                     <span className="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Wichtiges</span>
                     <span className="hover-footer my-1">Über mich</span>
                     <span className="hover-footer my-1">Kursinfos</span>
                     <span className="hover-footer my-1">Anstehende Kurse</span>
                     <span className="hover-footer my-1">Anmelden</span>
                 </div>
-                <div class="flex flex-col">
+                <div className="flex flex-col">
                     <span className="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Langweiliges</span>
-                    <span className="hover-footer my-1">Impressum</span>
-                    <span className="hover-footer my-1">AGB</span>
-                    <span className="hover-footer my-1">Datenschutz</span>
+                    <Link to="/">Impressum</Link>
+                    <Link to="/">Datenschutz</Link>
+                    <Link to="/">Haftungsbeschluss</Link> 
                 </div>
             </div>
         </div>

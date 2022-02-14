@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import background2 from '../img/Welcome-34.png';
 import { Anchor, Drawer} from 'antd';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';

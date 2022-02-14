@@ -10,8 +10,8 @@ const Welcome = () => {
 
             <h2 className="fontstyleh2 ">Scootering is Awesome</h2>
             <h1 className="fontstyleh1 typewriter">Stunt Scooter Kurse in Linz</h1>
-</div>
         </div>
+    </div>
     )
 }
 
