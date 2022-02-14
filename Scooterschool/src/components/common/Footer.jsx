@@ -4,8 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { Link} from 'react-router-dom';
-import Impressum from '../rights/Impressum'
+import {Link} from 'react-router-dom'
+
 
 import './Footer.css'
 import logo from '../../assets/logo.png';
@@ -31,16 +31,16 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                     <span className="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Wichtiges</span>
-                    <span className="hover-footer my-1">Über mich</span>
-                    <span className="hover-footer my-1">Kursinfos</span>
-                    <span className="hover-footer my-1">Anstehende Kurse</span>
-                    <span className="hover-footer my-1">Anmelden</span>
+                    <Link className="hover-footer my-1" to="/about">Über mich</Link>
+                    <Link className="hover-footer my-1" to="/kurse">Kurs Info</Link>
+                    <Link className="hover-footer my-1" to="/termine">Termine</Link> 
+                    <Link className="hover-footer my-1" to="/contact">Kontakt</Link> 
                 </div>
                 <div className="flex flex-col">
                     <span className="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Langweiliges</span>
-                    <Link to="/">Impressum</Link>
-                    <Link to="/">Datenschutz</Link>
-                    <Link to="/">Haftungsbeschluss</Link> 
+                    <Link className="hover-footer my-1" to="/impressum">Impressum</Link>
+                    <Link className="hover-footer my-1" to="/datenschutz">Datenschutz</Link>
+                    <Link className="hover-footer my-1" to="/haftung">Haftungsbeschluss</Link> 
                 </div>
             </div>
         </div>

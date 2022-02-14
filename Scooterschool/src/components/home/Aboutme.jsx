@@ -1,6 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 import aboutMeImg from '../../assets/Placeholder.jpg';
@@ -39,8 +40,14 @@ const Aboutme = () => {
         <h1>Hey<span>!</span></h1>
         
         <div className = "about-btns">
+          <Link to="/contact">
           <button type = "button" className = "btn btn-pink">Kontakt</button>
+          </Link>
+          <Link to="/anmelden">
           <button type = "button" className = "btn btn-white">Anmelden</button>
+          </Link>
+          
+          
         </div>
 
         <div className = "about-para">

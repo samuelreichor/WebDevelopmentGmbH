@@ -7,7 +7,7 @@ import Anmelden from '../components/home/Anmelden';
 import Kontakt from '../components/home/ContactForm';
 
 
-function AppHome() {
+const AppHome = () => {
   return (
     <div className="main">
       <Welcome/>
@@ -18,6 +18,6 @@ function AppHome() {
       <Kontakt/>
     </div>
   );
-}
+};
 
 export default AppHome;

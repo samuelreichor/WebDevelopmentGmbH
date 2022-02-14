@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Information = () => {
     return (
@@ -13,7 +13,11 @@ const Information = () => {
                     <h3 className="informationh3">Ort</h3>
                     <p className="para-information">Die Kurse werden im Winter in der Sporthalle Lissfeld stattfinden. 
                         Diese Skate-Halle befindet sich in Linz in der Nähe vom Bindermichel Tunnel.</p>
+                        <a href="https://www.livasport.at/sportparks/sportpark-lissfeld/" target='_blank'>
+         
                         <button type = "button" className = "btn btn-white informationBtn">Mehr Information</button>
+                        </a>
+                        
                     </li>
                     </div>
                     <div className="card">
@@ -36,7 +40,10 @@ const Information = () => {
                     <p className="para-information">Weiter unten auf der Website können Sie sich oder Ihr Kind anmelden. 
                     ​   Nach einer erfolgreichen Anmeldung werden Sie eine Email mit den Kursdaten erhalten.    
                     </p>
+                    <Link to="/anmelden">
                     <button type = "button" className = "btn btn-white informationBtn">Anmelden</button>
+                    </Link>
+                    
                     </li>
                     </div>
 

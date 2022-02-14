@@ -1,13 +1,26 @@
-import { ContactForm} from "./components";
+import {Home} from "./components"
+import {Datenschutz} from "./components"
+import {AGB} from "./components"
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
 
   return(
-    <div className='min-h-screen'> 
-      <div className="gradient-bg-welcome">
-      <ContactForm/>
-      </div>
-    </div>   
+    <div className="wrapper">
+        <Home/>
+          <Router>
+            <Switch>
+              <Route path="/" component={Home}/>
+              <Route path="/datenschutz">
+                <Datenschutz/>
+              </Route>
+            </Switch>
+          </Router>
+    </div>
+
+    
+      
+ 
   )
   
 }

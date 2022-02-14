@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { Link } from "react-router-dom";
 
 
 import './Anmelden.css'
@@ -24,7 +24,7 @@ const Anmelden = () => {
 
     return (
 
-<form id="anmelden" ref={form} onSubmit={sendEmail}>
+<form  ref={form} onSubmit={sendEmail}>
   
       <h2 className="anmeldenh2 anmeldenh2-border">Willkommen zur Kursanmeldung</h2>
       
@@ -80,7 +80,7 @@ const Anmelden = () => {
                 </div>
                 <div className="anmelden-form-item anmelden-haftung">
                 <input required type="checkbox" class="form-checkbox"/>
-                <span class="ml-2 ">Ich stimme den <span class="underline">Datenschutz/Haftungserklärung</span> zu.</span>
+                <span class="ml-2 ">Ich stimme den <Link to="/datenschutz">Datenschutz</Link>/<Link to="/haftung">Haftungserklärung</Link> zu.</span>
                 </div>
         
         </div>
