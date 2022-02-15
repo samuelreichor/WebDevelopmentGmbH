@@ -1,7 +1,5 @@
 import React, { useRef } from 'react';
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import {Link} from 'react-router-dom'
@@ -19,7 +17,10 @@ const Footer = () => {
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                 <div className="flex flex-col">
                     <span className="">
+                    <Link to="/">
                     <img  src={logo}  alt="logo" className="w-28 cursor-pointer "/>
+                    </Link>
+                    
                     </span>
                     <div className="container-footer">
                         <div className="icontel-footer icon-footer"><BsFillTelephoneForwardFill/></div>

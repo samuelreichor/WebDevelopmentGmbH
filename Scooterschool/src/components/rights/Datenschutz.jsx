@@ -4,7 +4,7 @@ const Datenschutz = () => {
     return (
         <div className="flexbox-rechtliches">
             <div className="content-rechtliches">
-                 <h1>Datenschutzerklärung</h1>
+                 <h1>Datenschutz-Erklärung</h1>
                     <p>In folgender Datenschutzerklärung informieren wir Sie über 
                         die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer 
                         Webseite. Wir erheben und verarbeiten personenbezogene Daten nur auf 

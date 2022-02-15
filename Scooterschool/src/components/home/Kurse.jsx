@@ -24,7 +24,7 @@ const Kurse = () => {
                                 <BsCalendarDate></BsCalendarDate> 
                             </div>
                             <div class="text-section textstyle">
-                                <p>23.02.2022</p>
+                                <p>coming soon</p>
                             </div>
                             <div class="icon-section1 iconstyle">
                                 <AiOutlineClockCircle></AiOutlineClockCircle>
@@ -68,7 +68,7 @@ const Kurse = () => {
                             <BsCalendarDate></BsCalendarDate> 
                         </div>
                         <div class="text-section textstyle">
-                            <p>23.02.2022</p>
+                            <p>coming soon</p>
                         </div>
                         <div class="icon-section1 iconstyle">
                             <AiOutlineClockCircle></AiOutlineClockCircle>

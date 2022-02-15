@@ -1,59 +1,61 @@
+import React from "react";
+import './Information.css'
 import { Link } from "react-router-dom";
 
-const Information = () => {
+const newInformation = () => {
     return (
-        <div id="information" className="information-wrapper bg-information">
-              <div className="information-headline">
-                <h1 className="informationh1 information-border">Allgemeine Informationen</h1>
-
-                <ul className="cards">
-                        
-                    <div className="card">
-                    <li >
-                    <h3 className="informationh3">Ort</h3>
-                    <p className="para-information">Die Kurse werden im Winter in der Sporthalle Lissfeld stattfinden. 
-                        Diese Skate-Halle befindet sich in Linz in der Nähe vom Bindermichel Tunnel.</p>
-                        <a href="https://www.livasport.at/sportparks/sportpark-lissfeld/" target='_blank'>
+        <div class="flex-container-information">
+        <div class="flex-items-information">
+        <h1 className="information-h1">Kursinfos</h1>
+        </div>
+        <div class="flex-items-information">
+            <h3 className="information-h3">Ort</h3>
+            <div className="information-description">
+            <p className="information-description">
+                Die Kurse werden im Winter in der Sporthalle Lissfeld stattfinden. 
+                Diese Skate-Halle befindet sich in Linz in der Nähe vom Bindermichel Tunnel und bietet auf über 1000 
+                m<sup>2</sup> alles was ein freestyle Herz begeehrt. 
+            </p>
+            </div>
+            
+                <a href="https://www.livasport.at/sportparks/sportpark-lissfeld/" target='_blank'>
          
-                        <button type = "button" className = "btn btn-white informationBtn">Mehr Information</button>
-                        </a>
-                        
-                    </li>
-                    </div>
-                    <div className="card">
-                    <li >
-                    <h3 className="informationh3">Ablauf</h3>
-                    <div className="para-information">
-                    <p className="para-information">Der Kurs wird in 3 Teile aufgebaut:</p>
+                    <button type = "button" className = "btn btn-white information-btn">Mehr Information</button>
+                </a>
+        </div>
+        <div class="flex-items-information">
+        <h3 className="information-h3">Ablauf</h3>
+        <div className="information-description">
+        <p className="information-description">Das schönste an einem Hobby ist schnelle Erfolge zu erzielen und dabei Spaß zu haben. 
+            Daher wird der Kurs in 3 Teile aufgebaut:</p>
                     <ul>
                         <li>1. Aufwärmen, kennenlernen</li>
                         <li>2. Alte Tricks üben</li>
                         <li>3. Neue Tricks lernen</li>
                     </ul>
-                    <p>Mit dieser Methode kann eine steile Lernkurve erreicht werden.</p>
-                    </div>
-                    </li>
-                    </div>
-                    <div className="card">
-                    <li >
-                    <h3 className="informationh3">Anmeldung</h3>
-                    <p className="para-information">Weiter unten auf der Website können Sie sich oder Ihr Kind anmelden. 
-                    ​   Nach einer erfolgreichen Anmeldung werden Sie eine Email mit den Kursdaten erhalten.    
-                    </p>
-                    <Link to="/anmelden">
-                    <button type = "button" className = "btn btn-white informationBtn">Anmelden</button>
-                    </Link>
-                    
-                    </li>
-                    </div>
+                    <p className="information-description">So können super schnell neue Tricks gelernt werden. </p>
+                    <br></br>
+                    <br></br>
+        </div>
+        
+        </div>
+        <div class="flex-items-information">
+        <h3 className="information-h3">Anmeldung</h3>
+        <div className="information-description">
+            <p className="information-description">
+            Weiter unten auf der Website oder wenn Sie auf den Knopf unterhalb drücken, können Sie sich 
+            oder Ihr Kind anmelden. Nach einer erfolgreichen Anmeldung werden Sie eine Email mit 
+            den Kursdaten erhalten.
+            </p>
+        </div>
+        <Link to="/anmelden">
+                    <button type = "button" className = "btn btn-white information-btn">Anmelden</button>
+        </Link>
+        </div>
+    </div>
+       
 
-                </ul>
-            </div>
-        
-            </div>
-        
-        
     )
 }
 
-export default Information;
+export default newInformation;

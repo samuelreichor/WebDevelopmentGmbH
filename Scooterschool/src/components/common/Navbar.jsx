@@ -48,7 +48,7 @@ const Navbar = () => {
                 </li> 
                 <li>
                
-                  <Link to="/anmelden" onClick={closeMobileMenu}>
+                  <Link to="/anmelden">
                   <button class="bubbly-button py-2 px-7 mx-4">Anmelden</button>
                   </Link>
                

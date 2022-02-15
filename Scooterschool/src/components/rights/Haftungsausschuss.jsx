@@ -4,7 +4,7 @@ const Haftungsausschluss = () => {
     return (
         <div className="flexbox-rechtliches">
             <div className="content-rechtliches">
-                 <h1 className='haftung'>Haftungsausschluss Scooterschool - Kurse</h1>
+                 <h1 className='haftung'>Haftungs-ausschluss</h1>
                     <p>Das Tragen eines Helmes während der Veranstaltung ist verpflichtend und für 
                         unsere TrainerInnen hat die Sicherheit der TeilnehmerInnen oberste Priorität. 
                         Trotzdem kann es beim Stunt-Scooter fahren zu Stürzen kommen und diese können im schlimmsten 

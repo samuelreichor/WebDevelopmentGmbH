@@ -26,7 +26,7 @@ const Anmelden = () => {
 
 <form  ref={form} onSubmit={sendEmail}>
   
-      <h2 className="anmeldenh2 anmeldenh2-border">Willkommen zur Kursanmeldung</h2>
+      <h1 className="anmelden-h1">Kursanmeldung</h1>
       
 <div className="anmelden-box">
     <div className="anmelden-links-wrapper">
@@ -39,8 +39,8 @@ const Anmelden = () => {
                 text-black
                 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" aria-label="Default select example">
             <option selected>Kurstermin wählen</option>
-            <option name="user_termin" value="21.01.2022">21.01.2022</option>
-            <option name="user_termin" value="27.02.2022">27.02.2022</option>
+            <option name="user_termin" value="13.03.2022">13.03.2022</option>
+            <option name="user_termin" value="27.03.2022">27.03.2022</option>
         </select>
         </div>
         <p className='anmelden-para'>Persönliche Daten vom Scooter-Profi ;)</p>
