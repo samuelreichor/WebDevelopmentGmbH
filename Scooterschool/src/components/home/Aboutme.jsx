@@ -44,14 +44,13 @@ const AboutMe = () => {
                 </div>
                     <div className = "about-description">
           
-                    <p> Vor 9 Jahren als ich noch die Volkschule besuchte, verliebte ich mich in, 
-                        Stunt-Scootering. Schnell entwickelte sich 
-                        dieses neue Hobby zur Leidenschaft und Lifestyle. 2017 hatte ich dann den ersten Sponsor-Vertrag 
+                    <p> Vor 10 Jahren, als ich noch die Volkschule besuchte, verliebte ich mich in Stunt-Scootering. Schnell entwickelte sich 
+                        dieses neue Hobby zur Leidenschaft und zu meinem Lifestyle. 2017 hatte ich dann den ersten Sponsor-Vertrag 
                         bei Rideside unterschrieben und bei einem Contest in der Linzer Sporthalle erreichte ich 
                         Platz 4 in Österreich. </p>
 
                         <p> <br></br>
-                        Heute will ich meine Leidenschaft an jüngere weitergeben und Menschen dazu bewegen niemals aufzugeben 
+                        Heute will ich meine Leidenschaft an andere weitergeben und junge Menschen dazu bewegen, sich Ziele zu setzen und diese zu verfolgen.
                         . 
                         </p>
                  </div>
