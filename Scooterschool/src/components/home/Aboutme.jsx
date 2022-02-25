@@ -10,7 +10,8 @@ import aboutMeImg from '../../assets/Placeholder.jpg';
 
 const AboutMe = () => {
     return (
-        <div class="flex-container-about">
+        <section id="Aboutme">
+            <div class="flex-container-about">
             <div class="flex-items-about">
                 <h1 className="about-h1-left">Über mich</h1>
             </div>
@@ -25,9 +26,21 @@ const AboutMe = () => {
                             <h3 className="about-h3-left">19, aus linz</h3>
 
                             <ul className = "icons-about curser-pointer">
-                                <li><FaFacebookF /></li>
-                                <li><FaInstagram></FaInstagram></li>
-                                <li><FaYoutube></FaYoutube></li>    
+                                <li>
+                                    <a href="https://www.instagram.com/samisstreetplaza/">
+                                    <FaFacebookF />
+                                    </a>                                   
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/samisstreetplaza?utm_medium=copy_link">
+                                    <FaInstagram/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                    <FaYoutube></FaYoutube>
+                                    </a>                              
+                                </li>    
                             </ul>
                     
              </div>
@@ -56,6 +69,8 @@ const AboutMe = () => {
                  </div>
             </div>
         </div>
+        </section>
+        
     )
 }
 

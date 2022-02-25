@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 
 const Termine = () => {
     return (
-        <div class="flex-container-termine">
+        <section id='termine'>
+<div class="flex-container-termine">
         <div class="flex-items-termine">
         <h1 className="termine-h1">Termine</h1>
         </div>
@@ -93,6 +94,8 @@ const Termine = () => {
         </Link>
         </div>
     </div>
+        </section>
+        
     )
 }
 

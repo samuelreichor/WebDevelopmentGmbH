@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 const newInformation = () => {
     return (
-        <div class="flex-container-information">
+        <section id="information">
+            <div class="flex-container-information">
         <div class="flex-items-information">
         <h1 className="information-h1">Kursinfos</h1>
         </div>
@@ -53,7 +54,9 @@ const newInformation = () => {
                     <button type = "button" className = "btn btn-white information-btn">Anmelden</button>
         </Link>
         </div>
-    </div>
+        </div>
+        </section>
+        
        
 
     )

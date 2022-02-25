@@ -1,23 +1,27 @@
-import Navbar from './Navbar'
+import React from "react";
+import {Navbar, Welcome, Contact, Aboutme} from "./components";
+import {useForm } from 'react-hook-form';
+
+
+
+
 function App() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = data => console.log(data);
   return (
-    <main id='home'>
-      <Navbar />
-      <section className='home'>
-        <h1>home</h1>
-      </section>
-      <section className='about' id='about'>
-        <h1>about</h1>
-      </section>
-      <section className='projects' id='projects'>
-        <h1>projects</h1>
-      </section>
-      <section className='contact' id='contact'>
-        <h1>contact</h1>
-      </section>
-      <section className='rest'></section>
-    </main>
+    <div>
+      <form onSubmit={handleSubmit(onSubmit)}>
+      <input {...register("firstName")} />
+      <select {...register("gender")}>
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="other">other</option>
+      </select>
+      <input type="submit" />
+    </form>
+      
+    </div>    
   )
 }
 
-export default App
+export default App;

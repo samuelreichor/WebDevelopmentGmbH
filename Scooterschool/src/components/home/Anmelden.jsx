@@ -23,7 +23,7 @@ const Anmelden = () => {
   };
 
     return (
-
+<section id='anmleden'>
 <form  ref={form} onSubmit={sendEmail}>
   
       <h1 className="anmelden-h1">Kursanmeldung</h1>
@@ -93,6 +93,8 @@ const Anmelden = () => {
     </div>
   
 </form>
+</section>
+
   
 
     )

@@ -27,30 +27,30 @@ const Navbar = () => {
                           
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className=" nav-item">
-                <Link to="/about" className='nav-links' onClick={closeMobileMenu}>
+                <a href="#Aboutme" className='nav-links' onClick={closeMobileMenu}>
                     Über mich
-                </Link>
+                </a>
                 </li>
                 <li className=" nav-item">
-                <Link to="/kurse" className='nav-links' onClick={closeMobileMenu}>
+                <a href="#information" className='nav-links' onClick={closeMobileMenu}>
                     Kurse
-                </Link>
+                </a>
                 </li>
                 <li className="nav-item">
-                <Link to="/termine" className='nav-links' onClick={closeMobileMenu}>
+                <a href="#termine" className='nav-links' onClick={closeMobileMenu}>
                     Termine
-                </Link>
+                </a>
                 </li> 
                 <li className="nav-item">
-                <Link to="/contact" className='nav-links' onClick={closeMobileMenu}>
+                <a href="#contact" className='nav-links' onClick={closeMobileMenu}>
                     Kontakt
-                </Link>
+                </a>
                 </li> 
                 <li>
                
-                  <Link to="/anmelden">
-                  <button class="bubbly-button py-2 px-7 mx-4">Anmelden</button>
-                  </Link>
+                  <a href="#anmelden">
+                  <button  href="#anmelden" class="bubbly-button py-2 px-7 mx-4">Anmelden</button>
+                  </a>
                
                     </li>   
                 </ul>
